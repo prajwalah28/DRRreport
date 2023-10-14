@@ -1,0 +1,93 @@
+
+body, html, table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  h1{
+    font-size :25px ;
+    color: #c74e4e;
+    text-align: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the table */
+  table {
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* Style table headings */
+  th {
+    background: linear-gradient(45deg, #00bfff, #4169e1);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style table cells */
+  td, input, select, button {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Style date inputs and number inputs */
+  input[type="date"], input[type="number"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style "Save" button */
+  button#save {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button#save:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    th, td {
+      font-size: 14px;
+    }
+    input[type="date"], input[type="number"] {
+      font-size: 14px;
+    }
+    button#save {
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 0;
+    }
+  }
+  
+  /* Animation for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  

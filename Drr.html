@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Run Rate Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daily run rate (DRR) Report</h1>
+  <table id="entry-table">
+    <tr>
+      <th>ID</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Month</th>
+      <th>Exclude Dates</th>
+      <th>Number of Days</th>
+      <th>Lead Count</th>
+      <th>Expected Lead Count</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="date" id="start-date"></td>
+      <td><input type="date" id="end-date"></td>
+      <td id="month-year"></td>
+      <td><input type="date" id="exclude-date"></td>
+      <td id="num-of-days"></td>
+      <td><input type="number" id="number-of-leads"></td>
+      <td id="expected-lead-count"></td>
+      <td><button id="save">Save</button></td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
